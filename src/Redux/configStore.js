@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import animeReducer from './animes';
+import animesSlice from './animes';
 
 const store = configureStore({
-    reducer: {
-        animes: animeReducer,
-    },
+  reducer: {
+    animes: animesSlice,
+  },
 });
 
 export default store;

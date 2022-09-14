@@ -2,10 +2,9 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
 } from 'react-router-dom';
 import Animes from './components/animes';
-
 
 function App() {
   return (

@@ -2,20 +2,21 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const initialState = [];
+const URL = 'https://anime-facts-rest-api.herokuapp.com/api/v1';
 
 export const getAnimes = createAsyncThunk('getting Api from animes', async () => {
-  const gottenAnimes = await axios.get('https://animechan.vercel.app/api/quotes').catch((error) => error);
+  const gottenAnimes = await axios.get(URL).catch((error) => error);
   const animesData = gottenAnimes.data;
-  return animesData;
+  return animesData.data;
 });
 
 export const searchAnimes = createAsyncThunk('search the animes', async (title) => {
-  const exploreAnimes = await axios.get(`https://animechan.vercel.app/api/quotes/anime?title=${title}`).catch((error) => error);
+  const exploreAnimes = await axios.get(`https://anime-facts-rest-api.herokuapp.com/api/v1/${title}`).catch((error) => error);
   return exploreAnimes.data;
 });
 
 const animesSlice = createSlice({
-  title: 'anime',
+  name: 'animes',
   initialState,
   extraReducers: {
     [getAnimes.fulfilled]: (state, action) => action.payload,
