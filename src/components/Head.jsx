@@ -3,57 +3,66 @@
 import React from 'react';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
 import bleach from './assets/bleach.jpg';
 import kaisen from './assets/kaisen.png';
 import naruto from './assets/naruto.jpg';
 import aot from './assets/aot.jpg';
 
 function Head() {
-  <div style={{ overflow: 'none' }}>
+  return (
     <Carousel fade>
       <Carousel.Item>
         <img
-        src={bleach}
-        className="d-block"
-        alt="imagen"
+          className="d-block w-100"
+          src={naruto}
+          alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Bleach</h3>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        src={kaisen}
-        className="d-block"
-        alt="imagen"
+          className="d-block w-100"
+          src={bleach}
+          alt="Second slide"
         />
+
         <Carousel.Caption>
-          <h3>JiuJutsu Kaisen</h3>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        src={naruto}
-        className="d-block"
-        alt="imagen"
+          className="d-block w-100"
+          src={kaisen}
+          alt="Third slide"
         />
+
         <Carousel.Caption>
-          <h3>Naruto</h3>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-        src={aot}
-        className="d-block"
-        alt="imagen"
+          className="d-block w-100"
+          src={aot}
+          alt="Second slide"
         />
+
         <Carousel.Caption>
-          <h3>aot</h3>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-  </div>;
+  );
 }
 
 export default Head;

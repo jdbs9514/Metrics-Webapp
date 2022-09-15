@@ -10,8 +10,8 @@ export const getAnimes = createAsyncThunk('getting Api from animes', async () =>
   return animesData.data;
 });
 
-export const searchAnimes = createAsyncThunk('search the animes', async (title) => {
-  const exploreAnimes = await axios.get(`https://anime-facts-rest-api.herokuapp.com/api/v1/${title}`).catch((error) => error);
+export const searchAnimes = createAsyncThunk('search the animes', async (name) => {
+  const exploreAnimes = await axios.get(`https://anime-facts-rest-api.herokuapp.com/api/v1/${name}`).catch((error) => error);
   return exploreAnimes.data;
 });
 

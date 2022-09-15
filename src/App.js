@@ -5,6 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Animes from './components/animes';
+import Details from './components/Details';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Animes />} />
+          <Route path="/details/:name" element={<Details />} />
         </Routes>
       </Router>
     </div>

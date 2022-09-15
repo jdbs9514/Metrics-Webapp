@@ -15,28 +15,28 @@ function Animes() {
     dispatch(getAnimes());
   }, [dispatch]);
 
-  const [search, setSearch] = useState('');
+  const [state, setState] = useState('');
   const handleChange = (e) => {
-    setSearch(e.target.value);
+    setState(e.target.value);
   };
 
   const handleSearch = (e) => {
     e.preventDefault();
-    dispatch(searchAnimes(search));
+    dispatch(searchAnimes(state));
   };
 
   const showAll = (e) => {
     e.preventDefault();
     dispatch(getAnimes());
-    setSearch('');
+    setState('');
   };
 
   const renderAnimes = animes.map((data) => (
     <div key={data.anime_id}>
-      <Link className="big" to={`./details/${data.anime_id}`}>
+      <Link className="big" to={`./details/${data.anime_name}`}>
         <img className="anime-image" alt="details" src={data.anime_img} />
         <div className="anime-name">
-          <h2 className="anime-paragraph">{data.anime_name}</h2>
+          <h2 className="anime-paragraph">{data.anime_name.toUpperCase()}</h2>
         </div>
       </Link>
     </div>
@@ -52,7 +52,7 @@ function Animes() {
             className="input-anime"
             placeholder="Search Anime"
             onChange={handleChange}
-            value={search}
+            value={state}
           />
           <button
             className="button-search"
