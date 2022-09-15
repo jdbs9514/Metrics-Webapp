@@ -4,14 +4,14 @@ import { Link, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FaArrowLeft, FaMicrophoneAlt } from 'react-icons/fa';
 import { AiFillSetting } from 'react-icons/ai';
-import { getAnimes } from '../Redux/animes';
+import { searchAnimes } from '../Redux/animes';
 
 function Details() {
   const animes = useSelector((state) => state.animes);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getAnimes());
+    dispatch(searchAnimes());
   }, [dispatch]);
   const { name } = useParams();
   const index = animes.findIndex((data) => data.anime_name === name);

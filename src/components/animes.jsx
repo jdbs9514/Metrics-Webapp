@@ -1,5 +1,6 @@
 /* eslint-disable  linebreak-style */
 /* eslint-disable no-trailing-spaces */
+import './styles/anime.css';
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -32,7 +33,7 @@ function Animes() {
   };
 
   const renderAnimes = animes.map((data) => (
-    <div key={data.anime_id}>
+    <div key={data.anime_id} id={`${data.anime_name}`}>
       <Link className="big" to={`./details/${data.anime_name}`}>
         <img className="anime-image" alt="details" src={data.anime_img} />
         <div className="anime-name">

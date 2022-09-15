@@ -5,7 +5,7 @@ const initialState = [];
 const URL = 'https://anime-facts-rest-api.herokuapp.com/api/v1';
 
 export const getAnimes = createAsyncThunk('getting Api from animes', async () => {
-  const gottenAnimes = await axios.get(URL).catch((error) => error);
+  const gottenAnimes = await axios.get(URL).catch((error) => error.delete);
   const animesData = gottenAnimes.data;
   return animesData.data;
 });
