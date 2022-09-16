@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cryptos renders correctly 1`] = `
+<div>
+  <div
+    id="section"
+  >
+    <div
+      className="div-class"
+    >
+      <div
+        className="carousel slide carousel-fade"
+        onKeyDown={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+      >
+        <div
+          className="carousel-indicators"
+        >
+          <button
+            aria-current={true}
+            aria-label="Slide 1"
+            className="active"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+          <button
+            aria-current={false}
+            aria-label="Slide 2"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+          <button
+            aria-current={false}
+            aria-label="Slide 3"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+          <button
+            aria-current={false}
+            aria-label="Slide 4"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+        <div
+          className="carousel-inner"
+        >
+          <div
+            className="active carousel-item"
+          >
+            <div
+              className="d-block w-100 p-3 mb-2 bg-info text-dark"
+            >
+              <div
+                className="position"
+              >
+                <img
+                  alt="First slide"
+                  className="w-50"
+                  id="bitcoin"
+                  src="bitcoin.png"
+                />
+              </div>
+              <div
+                className="carousel-caption"
+              >
+                <h3>
+                  Bitcoin
+                </h3>
+                <p>
+                  Bitcoin (Abbreviation: BTC; sign: ₿) is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="carousel-item"
+          >
+            <div
+              className="d-block w-100 p-3 mb-2 bg-info text-dark"
+            >
+              <div
+                className="position"
+              >
+                <img
+                  alt="Second slide"
+                  className="w-50"
+                  src="cardano.png"
+                />
+              </div>
+              <div
+                className="carousel-caption"
+              >
+                <h3>
+                  Cardano
+                </h3>
+                <p>
+                  Cardano is a public blockchain platform. It is open-source and decentralized, with consensus achieved using proof of stake.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="carousel-item"
+          >
+            <div
+              className="d-block w-100 p-3 mb-2 bg-info text-dark"
+            >
+              <div
+                className="position"
+              >
+                <img
+                  alt="Third slide"
+                  className="w-50"
+                  src="ethereum.png"
+                />
+              </div>
+              <div
+                className="carousel-caption"
+              >
+                <h3>
+                  Ethereum
+                </h3>
+                <p>
+                  Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="carousel-item"
+          >
+            <div
+              className="d-block w-100 p-3 mb-2 bg-info text-dark"
+            >
+              <div
+                className="position"
+              >
+                <img
+                  alt="Second slide"
+                  className="w-50"
+                  src="tether.png"
+                />
+              </div>
+              <div
+                className="carousel-caption"
+              >
+                <h3>
+                  Tether
+                </h3>
+                <p>
+                  Tether (often referred to by one of its currency codes, USD₮), is an asset-backed cryptocurrency stablecoin. It was launched by the company Tether Limited Inc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          className="carousel-control-prev"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-prev-icon"
+          />
+          <span
+            className="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-next-icon"
+          />
+          <span
+            className="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      className="all-cryptos"
+    />
+  </div>
+</div>
+`;

@@ -143,3 +143,65 @@
 .rows > div:nth-child(2n-1) {
   background-color: #4369b2;
 }
+
+#section {
+  background-color: #2d4573;
+}
+
+@media screen and (min-width: 768px) {
+  .first {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .explorer-div {
+    margin-right: 6%;
+  }
+
+  .stats {
+    font-size: 30px;
+  }
+
+  .current {
+    font-size: 30px;
+  }
+
+  .soan {
+    font-size: 30px;
+  }
+
+  .market-span {
+    font-size: 30px;
+  }
+
+  .volumen-span {
+    font-size: 30px;
+  }
+
+  .explorer {
+    font-size: 30px;
+  }
+
+  .position {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .position img {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  #section {
+    background-color: #2d4573;
+  }
+
+  .nav-name {
+    font-size: 20px;
+  }
+}

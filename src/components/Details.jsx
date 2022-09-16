@@ -49,7 +49,7 @@ function Details() {
       </div>
       <div className="rows">
         <div className="div-price">
-          <span>Current Price</span>
+          <span className="current">Current Price</span>
           <p id="namepop" className="card-text">
             $
             {animes[index].priceUsd}
@@ -74,7 +74,7 @@ function Details() {
             <p>{animes[index].volumeUsd24Hr}</p>
           </div>
           <div className="explorer-div">
-            <span>Explorer </span>
+            <span className="explorer">Explorer </span>
             <a href={animes[index].explorer}>
               <img className="imagen" src={globe} alt="globe" />
             </a>
