@@ -16,7 +16,7 @@ Metrics Webapp is aimed at all fans of this type of marking.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dreamy-twilight-dc3eda.netlify.app)
 
 
 ## Getting Started
@@ -30,6 +30,7 @@ npm install
 npm start
 ```
 
+[Loom](https://www.loom.com/share/a0f27730c7e448efb1d95987a5868713)
 ### Prerequisites
 
 - HTML
@@ -44,10 +45,6 @@ npm install
 ```markdown
 npm test
 ```
-### Deployment
-
-
-
 ## Authors
 
 👤 **Josué Benavides**
