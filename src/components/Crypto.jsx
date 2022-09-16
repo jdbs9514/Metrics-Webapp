@@ -33,12 +33,12 @@ function Cryptos() {
   ));
 
   return (
-    <div>
+    <section>
       <div id="section">
         <Head />
         <div className="all-cryptos">{renderAnimes}</div>
       </div>
-    </div>
+    </section>
   );
 }
 

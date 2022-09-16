@@ -12,7 +12,7 @@ import tether from './assets/tether.png';
 
 function Head() {
   return (
-    <div className="div-class">
+    <header className="div-class">
       <Carousel fade>
         <Carousel.Item>
           <div className="d-block w-100 p-3 mb-2 bg-info text-dark">
@@ -88,7 +88,7 @@ function Head() {
           </div>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </header>
   );
 }
 
