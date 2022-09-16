@@ -1,0 +1,145 @@
+.all-cryptos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #5586e2;
+}
+
+.all-cryptos > div:nth-child(4n-1),
+.all-cryptos > div:nth-child(4n-2) {
+  background-color: #3f62a4;
+}
+
+.info {
+  text-align: end;
+  padding: 0.5rem;
+}
+
+.big {
+  text-decoration: none;
+}
+
+.crypto-paragraph {
+  color: #2d4573;
+  font-size: 40px;
+  padding: 0.5rem;
+}
+
+.data-name {
+  color: #fff;
+}
+
+.price {
+  color: #fff;
+}
+
+.d-block {
+  width: 100%;
+  height: 55vh;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+/*  Details  */
+
+.details-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4369b2;
+  color: #fff;
+}
+
+.icons {
+  margin-right: 10px;
+}
+
+.arrow {
+  color: #fff;
+  margin-top: 9px;
+}
+
+.imagedetails h1 {
+  color: #000;
+  font-size: 20rem;
+  left: 4.5rem;
+  letter-spacing: -1rem;
+  position: absolute;
+}
+
+.imagedetails {
+  /* stylelint-disable-next-line function-comma-space-after */
+  background: linear-gradient(90deg,#000,#5588e3);
+  color: #fff;
+  display: flex;
+  height: 20rem;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+}
+
+.title-details {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.imagedetails h2 {
+  font-size: 50px;
+}
+
+.imagedetails span {
+  font-size: 20px;
+}
+
+.div-stats {
+  background: #35548b;
+}
+
+.stats {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 3%;
+}
+
+.div-price {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.first {
+  display: flex;
+  padding: 1.5rem 2rem;
+  gap: 2rem;
+  color: #fff;
+}
+
+.second {
+  display: flex;
+  padding: 1.5rem 2rem;
+  gap: 2rem;
+  color: #fff;
+}
+
+.imagen {
+  width: 50px;
+  height: 50px;
+}
+
+.explorer-div {
+  gap: 1rem;
+}
+
+.rows > div:nth-child(2n) {
+  background-color: #3f62a4;
+}
+
+.rows > div:nth-child(2n-1) {
+  background-color: #4369b2;
+}

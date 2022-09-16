@@ -1,67 +1,94 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/jsx-indent-props */
 import React from 'react';
+import './styles/Crypto.css';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
-import bleach from './assets/bleach.jpg';
-import kaisen from './assets/kaisen.png';
-import naruto from './assets/naruto.jpg';
-import aot from './assets/aot.jpg';
+import bitcoin from './assets/bitcoin.png';
+import cardano from './assets/cardano.png';
+import ethereum from './assets/ethereum.png';
+import tether from './assets/tether.png';
 
 function Head() {
   return (
-    <Carousel fade>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={naruto}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={bleach}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={kaisen}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={aot}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div className="div-class">
+      <Carousel fade>
+        <Carousel.Item>
+          <div className="d-block w-100 p-3 mb-2 bg-info text-dark">
+            <div className="position">
+              <img
+                id="bitcoin"
+                className="w-50"
+                src={bitcoin}
+                alt="First slide"
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Bitcoin</h3>
+              <p>
+                Bitcoin (Abbreviation: BTC; sign: ₿) is a decentralized digital currency
+                that can be transferred on the peer-to-peer bitcoin network.
+              </p>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="d-block w-100 p-3 mb-2 bg-info text-dark">
+            <div className="position">
+              <img
+                className="w-50"
+                src={cardano}
+                alt="Second slide"
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Cardano</h3>
+              <p>
+                Cardano is a public blockchain platform. It is open-source and decentralized,
+                with consensus achieved using proof of stake.
+              </p>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="d-block w-100 p-3 mb-2 bg-info text-dark">
+            <div className="position">
+              <img
+                className="w-50"
+                src={ethereum}
+                alt="Third slide"
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Ethereum</h3>
+              <p>
+                Ethereum is a decentralized, open-source blockchain with smart contract
+                functionality. Ether is the native cryptocurrency of the platform.
+              </p>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="d-block w-100 p-3 mb-2 bg-info text-dark">
+            <div className="position">
+              <img
+                className="w-50"
+                src={tether}
+                alt="Second slide"
+              />
+            </div>
+            <Carousel.Caption>
+              <h3>Tether</h3>
+              <p>
+                Tether (often referred to by one of its currency codes, USD₮), is an asset-backed
+                cryptocurrency stablecoin. It was launched by the company Tether Limited Inc.
+              </p>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+      </Carousel>
+    </div>
   );
 }
 

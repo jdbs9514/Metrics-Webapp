@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Animes from './components/animes';
+import Cryptos from './components/Crypto';
 import Details from './components/Details';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="app">
       <Router>
         <Routes>
-          <Route path="/" element={<Animes />} />
+          <Route path="/" element={<Cryptos />} />
           <Route path="/details/:name" element={<Details />} />
         </Routes>
       </Router>
