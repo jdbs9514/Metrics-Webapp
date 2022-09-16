@@ -1,57 +1,57 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Metrics-Webapp
 
-> Description the project.
+In this ocation i want to display some differents kinds of crypto coins, the price, and the market cap of this,the page is full dinamyc to access into the data.
+
+Metrics Webapp is aimed at all fans of this type of marking.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+<img alt="React Badge" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"><br>
+<img alt="HTML Badge" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"><br>
+<img alt="CSS Badge" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"><br>
+<img alt="JavaScript Badge" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"><br>
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dreamy-twilight-dc3eda.netlify.app)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Clone my Repo: https://github.com/jdbs9514/Metrics-Webapp.git
 
+the run:
 
-To get a local copy up and running follow these simple example steps.
+```markdown
+npm install
+npm start
+```
 
+[Loom](https://www.loom.com/share/a0f27730c7e448efb1d95987a5868713)
 ### Prerequisites
 
-### Setup
-
+- HTML
+- CSS
+- JavaScript
 ### Install
-
-### Usage
-
+- Node Modules :
+```markdown
+npm install
+```
 ### Run tests
-
-### Deployment
-
-
-
+```markdown
+npm test
+```
 ## Authors
 
-👤 **Author1**
+👤 **Josué Benavides**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@jdbs9514](https://github.com/jdbs9514)
+- Twitter: [@JODA1015](https://twitter.com/JODA1015)
+- LinkedIn: [jdbs9514](https://linkedin.com/in/jdbs9514)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
